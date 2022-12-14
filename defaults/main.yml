@@ -1,0 +1,7 @@
+---
+gitea_filesystem_root: /srv/volumes/gitea
+gitea_container_name: "gitea"
+gitea_image_name: "gitea/gitea"
+gitea_image_tag: "1"
+gitea_config_sshd_port: "2222"
+gitea_config_http_port: "3000"
