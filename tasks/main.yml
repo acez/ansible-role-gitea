@@ -25,5 +25,5 @@
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro
     published_ports:
-      - "{{ gitea_config_sshd_port }}:3000"
-      - "{{ gitea_config_http_port }}:22"
+      - "{{ gitea_config_http_port }}:3000"
+      - "{{ gitea_config_sshd_port }}:22"
