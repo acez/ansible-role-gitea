@@ -2,7 +2,7 @@ galaxy_info:
   author: Christian Wilhelm
   description: Ansible role to setup a gitea container
   license: MIT
-  min_ansible_version: 2.1
+  min_ansible_version: "2.10"
   galaxy_tags: ['gitea']
   platforms:
     - name: Debian
